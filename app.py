@@ -10,10 +10,10 @@ import tempfile
 from twilio.rest import Client
 
 # Replace these with your actual Twilio credentials
-account_sid = "ACafdb32e98a9cee1a79ce7195c2736658"
-auth_token = "c640ea3206dc494bca30fe47870b4d54"
-whatsapp_number = "whatsapp:+14155238886"  # e.g., "whatsapp:+14155238886"
-user_whatsapp_number = "whatsapp:+917060942733"  # e.g., "whatsapp:+919876543210"
+account_sid = "......"
+auth_token = "......."
+whatsapp_number = "whatsapp:....."  # e.g., "whatsapp:+14155238886"
+user_whatsapp_number = "whatsapp:......"  # e.g., "whatsapp:+919876543210"
 
 # Initialize Twilio Client
 twilio_client = Client(account_sid, auth_token)
